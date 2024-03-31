@@ -319,7 +319,6 @@ footer {
   transition: all 0.4s;
 }
 #leftArrow{
-  background-color: #ecebeb;
   position: absolute;
   padding: 6px;
   border-radius: 50%;
