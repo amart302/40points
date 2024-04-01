@@ -175,7 +175,6 @@ main {
   overflow: hidden;
 }
 .mainBlock {
-  /* max-width: 1340px; */
   display: flex;
   flex-direction: column;
   grid-gap: 20px;
@@ -318,7 +317,7 @@ footer {
   padding: 20px;
   transition: all 0.4s;
 }
-#leftArrow{
+#leftArrow {
   position: absolute;
   padding: 6px;
   border-radius: 50%;
@@ -327,7 +326,7 @@ footer {
   top: 10px;
   cursor: pointer;
 }
-#rightArrow{
+#rightArrow {
   background-color: white;
   padding: 6px;
   border-radius: 50%;
@@ -343,7 +342,7 @@ footer {
   border: solid 1px #d1cece;
   border-radius: 4px;
 }
-.miniWand{
+.miniWand {
   height: 2px;
   width: 100%;
   background-color: #d1cece;
@@ -351,12 +350,13 @@ footer {
   margin-block: 66px;
   border-radius: 4px;
 }
-.priceInputs{
+.priceInputs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.minInp, .maxInp{
+.minInp,
+.maxInp {
   width: 144px;
   height: 28px;
   color: black;
@@ -365,12 +365,12 @@ footer {
   font-family: "Sarpanch", sans-serif;
   font-size: 16px;
 }
-.lifstylesBlocks{
+.lifstylesBlocks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.lifstylesBlock{
+.lifstylesBlock {
   padding: 16px;
   display: flex;
   justify-content: center;
@@ -378,29 +378,29 @@ footer {
   border-radius: 4px;
   cursor: pointer;
 }
-.allDealsBlock{
+.allDealsBlock {
   display: flex;
   justify-content: space-between;
 }
-.radioInp{
+.radioInp {
   -webkit-appearance: none;
   width: 20px;
   height: 20px;
   cursor: pointer;
   border: solid 1px #d1cece;
 }
-.bodyTypesBlock{
+.bodyTypesBlock {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 6px;
 }
-.bodyType{
+.bodyType {
   display: flex;
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
   align-items: center;
 }
-.bodyTypeImg{
+.bodyTypeImg {
   width: 100%;
 }
