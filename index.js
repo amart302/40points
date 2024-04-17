@@ -20,10 +20,14 @@ bodyTypeBl.addEventListener("click", () => {
 
 const cookieBlock = document.getElementById("cookieBlock");
 const cookieBtn = document.getElementById("cookieBtn");
+console.log(sessionStorage.getItem('cookieCheck'))
 
-setTimeout(() => {
-  cookieBlock.style.bottom = "26px";
-}, 2000);
+if(!sessionStorage.getItem('cookieCheck')){
+  setTimeout(() => {
+    cookieBlock.style.bottom = "26px";
+  }, 1000);
+  sessionStorage.setItem('cookieCheck', true);
+}
 
 cookieBtn.addEventListener("click", () => {
   cookieBlock.style.bottom = "-160px";
@@ -106,3 +110,4 @@ language.addEventListener('input', () => {
       break
   }
 })
+
