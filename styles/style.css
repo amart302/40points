@@ -1,0 +1,687 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+#cookieBlock{
+  font-family: "Sarpanch", sans-serif;
+  width: 100%;
+  position: fixed;
+  bottom: -160px;
+  transition: all 0.6s;
+}
+.cookie{
+  width: 500px;
+  height: 120px;
+  margin-inline: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding-inline: 24px;
+  padding-block: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
+}
+.cookie_childBlock{
+  display: flex;
+  justify-content: space-between;
+}
+.cookie_childBlock p{
+  margin: 0;
+  color: #4071cb;
+  cursor: pointer;
+}
+#cookieBtn{
+  height: 30px;
+  width: 162px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: solid 1px black;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+  background: url(../img/Rectangle\ 1.png) center no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+#letsGoBtn{
+  display: flex;
+  position: absolute;
+  left: 45%;
+  bottom: -396px;
+  height: 40px;
+  width: 160px;
+  border: none;
+  border-radius: 8px 8px 0 0;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .whatsappIcon:hover {
+    transform: scale(1.3);
+  }
+  .telegramIcon:hover {
+    transform: scale(1.3);
+  }
+  nav a:hover {
+    margin-bottom: 8px;
+    color: #6197fd;
+  }
+  .callback:hover {
+    background-color: white;
+    color: black;
+  }
+  .carsForSaleBlock button:hover {
+    background-color: white;
+    color: black;
+  }
+  .autopartsBlock button:hover {
+    background-color: white;
+    color: black;
+  }
+  .servicingBlock button:hover {
+    background-color: white;
+    color: black;
+  }
+  .showAll:hover {
+    color: white;
+    background-color: #4071cb;
+  }
+  .card:hover {
+    background-color: white;
+    transform: scale(1.06);
+  }
+  .applicationBtn:hover {
+    background-color: white;
+  }
+  .footCallbackBLock:hover {
+    color: black;
+    background-color: white;
+  }
+  .mainBlock3_brand_card:hover {
+    transform: scale(1.1);
+  }
+  .mainBlock3_bodyType_card:hover {
+    transform: scale(1.1);
+  }
+  #cookieBtn:hover{
+    background-color: black;
+    color: white;
+  }
+  .buyBtn:hover{
+    background-color: black;
+    color: white;
+  }
+}
+@media (hover: none) {
+  .whatsappIcon:active {
+    transform: scale(1.3);
+  }
+  .telegramIcon:active {
+    transform: scale(1.3);
+  }
+  nav a:active {
+    margin-bottom: 8px;
+    color: #6197fd;
+  }
+  .callback:active {
+    background-color: white;
+    color: black;
+  }
+  .carsForSaleBlock button:active {
+    background-color: white;
+    color: black;
+  }
+  .autopartsBlock button:active {
+    background-color: white;
+    color: black;
+  }
+  .servicingBlock button:active {
+    background-color: white;
+    color: black;
+  }
+  .showAll:active {
+    color: white;
+    background-color: #4071cb;
+  }
+  .card:active {
+    background-color: white;
+    transform: scale(1.06);
+  }
+  .applicationBtn:active {
+    background-color: white;
+  }
+  .footCallbackBLock:active {
+    color: black;
+    background-color: white;
+  }
+  .mainBlock3_brand_card:active {
+    transform: scale(1.1);
+  }
+  .mainBlock3_bodyType_card:active {
+    transform: scale(1.1);
+  }
+  #cookieBtn:active{
+    background-color: black;
+    color: white;
+  }
+  .buyBtn:active{
+    background-color: black;
+    color: white;
+  }
+}
+
+header {
+  color: white;
+  font-family: "Sarpanch", sans-serif;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: transparent;
+  backdrop-filter: blur(5px);
+}
+
+.backgroundBlock {
+  position: relative;
+  width: 1600px;
+  margin-inline: auto;
+  padding-inline: 14px;
+}
+.backgroundBlock h1 {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+}
+
+.headBlock1 {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  margin-inline: auto;
+  padding-inline: 14px;
+}
+.headBlock1_childBlock1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+select {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: "Sarpanch", sans-serif;
+}
+option {
+  color: black;
+}
+.headBlock1_childBlock2 {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  align-items: center;
+}
+.callback {
+  padding-block: 24px;
+  padding-inline: 40px;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.headSocial_networks {
+  display: flex;
+  gap: 20px;
+}
+
+.headWand1 {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.headWand2 {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.headBlock2 {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  margin-inline: auto;
+  padding-inline: 14px;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+
+main {
+  margin-inline: auto;
+  font-family: "Sarpanch", sans-serif;
+}
+.mainBlock1 {
+  display: flex;
+  grid-gap: 2.5%;
+  max-width: 1340px;
+  margin-inline: auto;
+  margin-top: 100px;
+  padding: 20px;
+  justify-content: center;
+}
+.mainBlock1_podBlockImg {
+  display: grid;
+  gap: 2.5%;
+}
+
+.carsForSaleBlock span {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+}
+.carsForSaleBlock button {
+  height: 65px;
+  width: 150px;
+  background: transparent;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  color: white;
+  font-family: "Sarpanch", sans-serif;
+  font-size: 14px;
+  border: solid 0.1px rgb(124, 124, 124);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.carsForSaleImg {
+  width: 100%;
+  height: auto;
+}
+.autopartsBlock span {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+}
+.autopartsBlock button {
+  height: 65px;
+  width: 150px;
+  background: transparent;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  color: white;
+  font-family: "Sarpanch", sans-serif;
+  font-size: 14px;
+  border: solid 0.1px rgb(124, 124, 124);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.autopartsImg {
+  width: 100%;
+  height: auto;
+}
+.servicingBlock span {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+}
+.servicingBlock button {
+  height: 65px;
+  width: 150px;
+  background: transparent;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  color: white;
+  font-family: "Sarpanch", sans-serif;
+  font-size: 14px;
+  border: solid 0.1px rgb(124, 124, 124);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.servicingImg {
+  width: 100%;
+  height: auto;
+}
+
+.mainBlock2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1340px;
+  margin-inline: auto;
+  margin-top: 100px;
+  padding-inline: 10px;
+  align-items: center;
+  padding: 20px;
+}
+.choiceBlock {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.bodyTypeBlock {
+  display: flex;
+  height: 65px;
+  border-radius: 10px 0 0 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: solid 1px rgb(146, 145, 145);
+  background-color: #4071cb;
+  color: white;
+}
+
+.brandBlock {
+  display: flex;
+  height: 65px;
+  border-radius: 0 10px 10px 0;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: solid 1px rgb(146, 145, 145);
+  transition: all 0.2s;
+  background-color: white;
+}
+
+.mainBlock3 {
+  display: grid;
+  max-width: 1340px;
+  margin-inline: auto;
+  align-items: center;
+  overflow: hidden;
+}
+.sliderBlock {
+  display: flex;
+  width: 200%;
+  transition: all 1s;
+}
+.mainBlock3_podBlock1_bodyType {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+}
+.mainBlock3_bodyType_card {
+  display: flex;
+  flex-direction: column;
+  color: #4071cb;
+  align-items: center;
+  grid-gap: 12px;
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.bodyType_card_img {
+  width: 84%;
+  height: auto;
+}
+
+.mainBlock3_podBlock2_brand {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+}
+.mainBlock3_brand_card {
+  display: flex;
+  flex-direction: column;
+  color: #4071cb;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.brand_card_img {
+  width: 40%;
+  height: auto;
+}
+
+.showBtnBLock {
+  margin-inline: auto;
+}
+.showAll {
+  height: 40px;
+  width: 240px;
+  border: solid 1px #4071cb;
+  border-radius: 8px;
+  color: #4071cb;
+  font-family: "Sarpanch", sans-serif;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: all 0.2s;
+}
+
+.mainBlock4 {
+  max-width: 1340px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  align-items: center;
+  padding-inline: 10px;
+}
+
+.cards_block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+.card {
+  background-color: #f1f0eb;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px rgb(189, 189, 189);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.2s;
+}
+
+.card_podBlock1 {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  align-items: center;
+}
+.card_podBlock1 p {
+  color: #4071cb;
+}
+.newBl {
+  display: flex;
+  justify-content: right;
+}
+.card span {
+  font-size: 16px;
+}
+.card p {
+  font-size: 10px;
+}
+.cardImg {
+  width: 100%;
+}
+.machineParams {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 11px;
+}
+.param {
+  display: flex;
+  align-items: center;
+}
+.param span {
+  font-size: 12px;
+}
+.buyBtn {
+  margin-top: 10px;
+  background: transparent;
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 45px;
+  font-family: "Sarpanch", sans-serif;
+  transition: all 0.2s
+}
+
+
+.mainBlock5 {
+  display: flex;
+  max-width: 1340px;
+  margin-inline: auto;
+  align-items: center;
+  padding-inline: 10px;
+  margin-top: 60px;
+}
+.mainBlock5_Img {
+  width: 100%;
+  border-radius: 36px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mainBlock6 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1340px;
+  margin-inline: auto;
+  align-items: center;
+  padding-inline: 10px;
+  margin-top: 100px;
+  justify-content: center;
+  gap: 20px;
+}
+.manualBlock1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  gap: 20px;
+}
+.manualBlock2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 20px;
+}
+.point1,
+.point2,
+.point3,
+.point4,
+.point5 {
+  background-color: #f1f0eb;
+  padding: 10px;
+  border: solid 1px #4f4f4f;
+  border-radius: 10px;
+}
+.applicationBlock {
+  display: flex;
+  align-items: center;
+}
+.applicationBtn {
+  font-size: 16px;
+  width: 284px;
+  height: 45px;
+  border: solid 1px #4f4f4f;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+footer {
+  height: 300px;
+  margin-top: 140px;
+  font-family: "Sarpanch", sans-serif;
+  margin-bottom: 20px;
+}
+.footWand {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(218, 210, 210);
+  margin-block: 40px;
+}
+.footBlock1 {
+  display: flex;
+  gap: 20px;
+  max-width: 1340px;
+  margin-inline: auto;
+  padding-inline: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footBlock1_childBlock1 {
+  display: grid;
+  gap: 20px;
+}
+.footBl1_child2_podBlock1 {
+  display: grid;
+  grid-template-columns: 1.2fr 0.3fr 1fr;
+  gap: 40px;
+}
+.footBl1_childBl1Text2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.footPhone_numberBlock {
+  margin-block: 40px;
+}
+.footPhone_numberBlock h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.footSocial_networksBlock {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-block: 68px;
+}
+.footCallbackBLock {
+  padding-inline: 30px;
+  margin-block: 40px;
+  display: flex;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: solid 1px black;
+}
+
+
