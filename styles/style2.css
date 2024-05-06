@@ -293,7 +293,7 @@ main{
 .horsePowerBlock, .wheelDriveBlock, .numberOfSeatsBlock, .accelerationBlock, .distanceBlock, .transmissionBlock{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 12px;
   background-color: white;
   padding: 10px;
 }
